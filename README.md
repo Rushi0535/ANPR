@@ -1,8 +1,13 @@
 # License Plate Detection and Recognition
 
-This project is a Django-based web application that detects license plates in an image file and 
+This project detects license plates in an image file and 
 performs optical character recognition (OCR) to extract the text from the license plate. 
 The extracted text is then stored in a database and displayed on the web interface.
+
+
+## Description
+
+This function detects license plates in an image file. It first reads the image file and converts it to grayscale. It then applies a Gaussian blur to the image to reduce noise. Next, it applies the Canny edge detection algorithm to the image to find edges. It then finds all the contours in the image and sorts them by area in descending order. It then iterates through the contours and finds the first contour that has four sides. It then creates a mask of the contour and uses it to crop the image to the license plate region. It then passes the cropped image to an OCR engine to read the text on the license plate.
 
 ## Features
 
