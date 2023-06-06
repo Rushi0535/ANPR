@@ -30,7 +30,8 @@ The extracted text is then stored in a database and displayed on the web interfa
 
 ## Usage
 
-1. Start the Django development server: "python manage.py runserver"
+1. Start the Django development server: 
+        "python manage.py runserver"
 
 2. Access the web application in your browser at `http://localhost:8000`.
 
