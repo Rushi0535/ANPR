@@ -1,4 +1,4 @@
-# License Plate Detection and Recognition
+# Automatic Number Plate Detection and Recognition
 
 This project detects license plates in an image file and 
 performs optical character recognition (OCR) to extract the text from the license plate. 
