@@ -1,0 +1,58 @@
+/* Add shadows to the images */
+img {
+    box-shadow: 5px 5px 10px grey;
+}
+
+/* Change the shapes of the images */
+img.rounded {
+    border-radius: 50%;
+}
+
+img.circular {
+    border-radius: 25%;
+}
+
+/* Change background colors of headers */
+h1 {
+    background-color: blue;
+}
+
+h2 {
+    background-color: green;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+/* Before and after selectors using custom CSS */
+p::before {
+    content: "Hello ";
+}
+
+p::after {
+    content: " World!";
+}
+
+/* Changing the color scheme of widgets */
+.widget {
+    background-color: lightgrey;
+    color: black;
+}
+
+/* Disable right click and stop others from copying using CSS codes */
+body {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
