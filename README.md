@@ -35,7 +35,7 @@ This project detects license plates in an image file. It first reads the image f
 ## Usage
 
 1. Start the Django development server: 
-        "python manage.py runserver"
+        python manage.py runserver
 
 2. Access the web application in your browser at `http://localhost:8000`.
 
