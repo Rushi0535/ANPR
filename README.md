@@ -18,7 +18,7 @@ This project detects license plates in an image file. It first reads the image f
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository
 
 2. Install the required dependencies:
         pip install -r requirements.txt
